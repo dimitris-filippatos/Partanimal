@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+body{
+    
+    background-image: url(https://www.color-meanings.com/wp-content/uploads/Neon-color-wheel-1024x683.jpeg);
+    background-size: cover;
+
+}
+.navbar{
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    background-color: blue;
+    align-items: center;
+    
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+.navbar :nth-child(3){
+    margin-left: auto;
+}
+.navbar :last-child{
+    margin-right:30px;
+}
+.party{
+    width: 50px;
+}
+.home_container{
+    text-align: center;
+}
+.home_container h3 {
+    margin: 100px;
+}
+.fest_container img{
+    width: 600px;
+}
+.fest_container p {
+    width: 80ch;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+.fest_container{
+    background-color: aliceblue;
+    align-items: center;
+    width: 90%;
+    height: 500px;
+    overflow-y: scroll;
+    padding: 20px;
+}
+.fest_container h2{
+    padding: 10px;
+}
+.festivals_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+.contact_form{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+
+}
+form label,input,textarea{
+    display: block;
+    width: 200px;
+    border-radius: 5px;
+    outline: none;
+
+}
+form textarea{
+    width: 300px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact_container{
+    
+    height: calc(100vh - 70px);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form{
+    margin: 50px auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.label{
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+    margin-top: 10px;
+    width: 100px;
 }
