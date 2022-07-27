@@ -4,7 +4,10 @@ function Contact() {
   return (
     <div className="contact_container">
       <h1>CONTACT US</h1> 
-      <p>Write to us about other festivals you know or your experience in our site </p>
+      <p>Did you attend an event that changed your life?   
+      <br/> Do you have excessive knowledge about your favourite music festivals? 
+      <br/>  Are you keen to share your personal experiences? 
+      <br/>  We want you to showcase your love of psytrance to our community. </p>
       <div className="contact_form">
         <form action="action_page.php">
           <label htmlFor="fname">First Name</label>

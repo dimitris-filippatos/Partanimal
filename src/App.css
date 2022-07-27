@@ -1,108 +1,109 @@
-body{
-    
-    background-image: url(https://www.kimp.io/wp-content/uploads/2022/01/Green-Color-Psychology.jpg);
-    background-size: cover;
-
+body {
+  background-image: url(https://www.kimp.io/wp-content/uploads/2022/01/Green-Color-Psychology.jpg);
+  background-size: cover;
 }
-.navbar{
-    display: flex;
-    width: 100vw;
-    height: 70px;
-    background-color: rgba(55, 0, 255, 0.65);
-    align-items: center;
-    
+.navbar {
+  display: flex;
+  width: 100vw;
+  height: 70px;
+  background-color: rgba(55, 0, 255, 0.65);
+  align-items: center;
 }
-.navbar a{
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 20px;
-    
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
 }
-.navbar :nth-child(3){
-    margin-left: auto;
+.navbar :nth-child(3) {
+  margin-left: auto;
 }
-.navbar :last-child{
-    margin-right:30px;
+.navbar :last-child {
+  margin-right: 30px;
 }
-.party{
-    width: 50px;
+.party {
+  width: 50px;
 }
-.home_container{
-    text-align: center;
+.home_container {
+  text-align: center;
 }
 .home_container h3 {
-    margin: 100px;
+  margin: 100px;
 }
-.fest_container img{
-    width: 600px;
+.fest_container img {
+  width: 600px;
 }
 .fest_container p {
-    width: 80ch;
-    margin-top: 20px;
-    padding: 10px;
-    
+  width: 80ch;
+  margin-top: 20px;
+  padding: 10px;
 }
-.fest_container{
-    background-color: rgb(202, 215, 226);
-    align-items: center;
-    width: 90%;
-    height: 500px;
-    overflow-y: scroll;
-    padding: 20px;
+.fest_container {
+  background-color: rgb(202, 215, 226);
+  align-items: center;
+  width: 90%;
+  height: 500px;
+  overflow-y: scroll;
+  padding: 20px;
 }
-.fest_container h2{
-    padding: 10px;
+.fest_container h2 {
+  padding: 10px;
 }
-.festivals_container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    align-items: center;
-    justify-items: center;
+.festivals_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
 }
-.contact_form{
-    background-color: aquamarine;
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    height: 400px;
-    justify-content: center;
+.contact_form {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+form label,
+input,
+textarea {
+  display: block;
+  width: 200px;
+  border-radius: 5px;
+  outline: none;
+}
+form textarea {
+  width: 300px;
+}
 
+.contact_container {
+  height: calc(100vh - 70px);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
 }
-form label,input,textarea{
-    display: block;
-    width: 200px;
-    border-radius: 5px;
-    outline: none;
-
+form {
+  margin: 50px auto;
 }
-form textarea{
-    width: 300px;
+.label {
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
 }
-
-.contact_container{
-    
-    height: calc(100vh - 70px);
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.btn {
+  margin-top: 10px;
+  width: 100px;
 }
-form{
-    margin: 50px auto;
+.logo {
+  width: 50px;
+  margin-left: 20px;
 }
-.label{
-    display: inline-block;
-    padding: 20px;
-    font-size: 20px;
-}
-.btn{
-    margin-top: 10px;
-    width: 100px;
-}
-.logo{
-    width: 50px;
-    margin-left: 20px;
+.contact_container {
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
