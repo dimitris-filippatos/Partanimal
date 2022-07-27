@@ -1,6 +1,6 @@
 body{
     
-    background-image: url(https://www.color-meanings.com/wp-content/uploads/Neon-color-wheel-1024x683.jpeg);
+    background-image: url(https://www.kimp.io/wp-content/uploads/2022/01/Green-Color-Psychology.jpg);
     background-size: cover;
 
 }
@@ -8,7 +8,7 @@ body{
     display: flex;
     width: 100vw;
     height: 70px;
-    background-color: blue;
+    background-color: rgba(55, 0, 255, 0.65);
     align-items: center;
     
 }
@@ -44,7 +44,7 @@ body{
     
 }
 .fest_container{
-    background-color: aliceblue;
+    background-color: rgb(202, 215, 226);
     align-items: center;
     width: 90%;
     height: 500px;
@@ -101,4 +101,8 @@ form{
 .btn{
     margin-top: 10px;
     width: 100px;
+}
+.logo{
+    width: 50px;
+    margin-left: 20px;
 }
