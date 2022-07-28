@@ -6,7 +6,7 @@ function Festival({country, name, text, url, img}) {
       <h2>{name} - {country}</h2>
       <img src={img} alt={name}/>
       <p>{text}</p>
-      <a href={url}>Visit festivals site</a>
+      <a href={url}>Visit festival site</a>
     </div>
   )
 }

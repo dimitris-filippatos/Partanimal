@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className="contact_container">
       <h1>CONTACT US</h1> 
-      <p>Did you attend an event that changed your life?   
+      <br/><p>Did you attend an event that changed your life?   
       <br/> Do you have excessive knowledge about your favourite music festivals? 
       <br/>  Are you keen to share your personal experiences? 
       <br/>  We want you to showcase your love of psytrance to our community. </p>
