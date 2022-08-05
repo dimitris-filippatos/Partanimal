@@ -23,6 +23,13 @@ body {
 .navbar :last-child {
   margin-right: 30px;
 }
+.navbar :nth-child(1){
+  display: flex;
+  align-items: center;
+}
+.navbar :nth-child(2){
+  margin-left: -60px;
+}
 .party {
   width: 50px;
 }
@@ -33,20 +40,20 @@ body {
   margin: 100px;
 }
 .fest_container img {
-  width: 700px;
+  width: 100%;
+  
 }
 .fest_container p {
-  width: 80ch;
+  width: 100%;
   margin-top: 20px;
   padding: 10px;
   font-size: 100%;
 }
 .fest_container {
-  background-color: rgb(202, 215, 226);
+  background-color: rgba(202, 215, 226, 0.371);
   align-items: center;
   width: 90%;
-  height: 500px;
-  overflow-y: scroll;
+  height: 100%;
   padding: 20px;
 }
 .fest_container h2 {
@@ -81,18 +88,18 @@ textarea {
 }
 form textarea {
   width: 300px;
+  resize: none;
 }
 
 .contact_container {
-  padding:20px;
-  height: calc(90vh - 40px);
+  
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "Courier New", Courier, monospace;
-  padding: 50px;
+ 
 }
 form {
   margin: 70px auto;
@@ -109,7 +116,7 @@ form {
 .logo {
   width: 90px;
   margin-left: 20px;
-  margin-top: 50px;
+  
 }
 header {
   width: 100%;
@@ -135,7 +142,7 @@ h2 {
   font-family: 'Courier New', Courier, monospace;
   font-size: larger;
 }
-img{
+.home_container img{
   display: inline-block;
   margin: 25px 10px;
   width: 505px;
@@ -144,4 +151,30 @@ img{
 video{
   align-items: center;
  
+}
+.continent_container{
+  display: flex;
+  align-items: center;
+}
+.continent_container select{
+  width: 6rem;
+  height: 1.6rem;
+  margin-left: -20px;
+}
+
+
+@media screen and (max-width: 950px){
+  
+  .festivals_container {
+   
+    grid-template-columns: 1fr;
+  }
+  
+}
+@media screen and (max-width: 600px){
+  
+  
+  .partanimal{
+    display: none;
+  }
 }

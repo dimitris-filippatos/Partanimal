@@ -27,7 +27,7 @@ function Festivals() {
 
   return (
     <div>
-      <div>
+      <div className="continent_container">
         <label htmlFor="continent" className="label">Choose a continent:</label>
         <select name="continent" id="continent" onChange={handleChange}>
           <option value="Europe">Europe</option>
